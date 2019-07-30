@@ -29,3 +29,9 @@ pip freeze > requirements.txt
 #download dependencies when working in different environment:
 pip install -r requirements.txt
 ```
+
+###Add a django project
+```bash
+#create a project called blogger
+django-admin startproject blogger
+```
