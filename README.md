@@ -30,12 +30,12 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-###Add a django project
+### Add a django project
 ```bash
 #create a project called blogger
 django-admin startproject blogger
 ```
-###Create tables in django database
+### Create tables in django database
 ```bash
 #inside the project directory
 cd blogger
