@@ -41,3 +41,14 @@ django-admin startproject blogger
 cd blogger
 python manage.py migrate
 ```
+
+### Start the dev server at 127.0.0.1:8000
+```bash
+python manage.py runserver
+```
+
+### Clean up
+```bash
+lsof -nP -i4TCP:8000
+kill -9 $PID
+```
