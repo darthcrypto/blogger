@@ -58,3 +58,10 @@ kill -9 $PID
 python manage.py startapp blog
 ```
 
+###When updating models:
+```bash
+#create a migration
+python manage.py makemigrations blog
+#sync database with new model
+python manage.py migrate
+```
