@@ -35,3 +35,9 @@ pip install -r requirements.txt
 #create a project called blogger
 django-admin startproject blogger
 ```
+###Create tables in django database
+```bash
+#inside the project directory
+cd blogger
+python manage.py migrate
+```
