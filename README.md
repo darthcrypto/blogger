@@ -52,3 +52,9 @@ python manage.py runserver
 lsof -nP -i4TCP:8000
 kill -9 $PID
 ```
+
+### Create an app:
+```bash
+python manage.py startapp blog
+```
+
