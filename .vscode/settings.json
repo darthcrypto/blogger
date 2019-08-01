@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "envblogger/bin/python3.7"
+    "python.pythonPath": "envblogger/bin/python3.7",
+    "git.ignoreLimitWarning": true
 }
